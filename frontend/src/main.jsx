@@ -16,11 +16,11 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/Privacy" element={<PrivacyPolicy />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/ContactUs" element={<ContactUs />} />
-        <Route path="/TermsAndCondition" element={<TermsAndConditions />} />
-        <Route path="/Shipping" element={<Shippingdelay/>}/>
-        <Route path="/Refund" element={<RefundPolicy />} />
+        <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+        <Route path="/Shipping-delay" element={<Shippingdelay/>}/>
+        <Route path="/Refund-Cancellation" element={<RefundPolicy />} />
         <Route path="/Disclaimer" element={<Disclaimer />} />
       </Routes>
     </BrowserRouter>

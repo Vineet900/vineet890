@@ -9,7 +9,7 @@ const Footer = () => {
           ©2025-2030 Copyright Automate Channels. All Rights Reserved
           <br />
           <Link
-            to="/Privacy"
+            to="/privacy-policy"
             className="text-blue-500 hover:underline"
             rel="noopener noreferrer"
           >
@@ -17,7 +17,7 @@ const Footer = () => {
           </Link>{" "}
           |{" "}
           <Link
-            to="/Refund"
+            to="/Refund-Cancellation"
             className="text-blue-500 hover:underline"
             rel="noopener noreferrer"
           >
@@ -25,7 +25,7 @@ const Footer = () => {
           </Link>{" "}
           |{" "}
           <Link
-            to="/TermsAndCondition"
+            to="/terms-and-conditions"
             className="text-blue-500 hover:underline"
             rel="noopener noreferrer"
           >
@@ -33,7 +33,7 @@ const Footer = () => {
           </Link>{" "}
           |{" "}
           <Link
-            to="/Shipping"
+            to="/Shipping-delay"
             className="text-blue-500 hover:underline"
             rel="noopener noreferrer"
           >
